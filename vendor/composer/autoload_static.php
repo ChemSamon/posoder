@@ -58,6 +58,7 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'T' => 
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
+            'ThomasMarinissen\\LaravelVercel\\' => 31,
             'Tests\\' => 6,
         ),
         'S' => 
@@ -211,6 +212,10 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
+        ),
+        'ThomasMarinissen\\LaravelVercel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thomasmarinissen/laravel-vercel/src',
         ),
         'Tests\\' => 
         array (
@@ -6746,6 +6751,8 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'ThomasMarinissen\\LaravelVercel\\Commands\\InstallCommands' => __DIR__ . '/..' . '/thomasmarinissen/laravel-vercel/src/Commands/InstallCommands.php',
+        'ThomasMarinissen\\LaravelVercel\\VercelServiceProvider' => __DIR__ . '/..' . '/thomasmarinissen/laravel-vercel/src/VercelServiceProvider.php',
         'TijsVerkoyen\\CssToInlineStyles\\CssToInlineStyles' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/CssToInlineStyles.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Processor.php',

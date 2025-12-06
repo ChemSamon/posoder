@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '532534c6db5903dbbe502679f45a1ca7b839f1fa',
+        'reference' => '4007b07353885faf2d0650976fffb3e0f6e1553e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -433,7 +433,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '532534c6db5903dbbe502679f45a1ca7b839f1fa',
+            'reference' => '4007b07353885faf2d0650976fffb3e0f6e1553e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1300,6 +1300,17 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'thomasmarinissen/laravel-vercel' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '8531cb40e99751fc00d5333ab55aebcbec72feb5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../thomasmarinissen/laravel-vercel',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
         ),
         'tijsverkoyen/css-to-inline-styles' => array(
             'pretty_version' => 'v2.3.0',
