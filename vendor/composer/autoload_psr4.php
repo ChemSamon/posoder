@@ -55,7 +55,7 @@ return array(
     'Opis\\Closure\\' => array($vendorDir . '/opis/closure/src'),
     'Nyholm\\Psr7\\' => array($vendorDir . '/nyholm/psr7/src'),
     'NunoMaduro\\Collision\\' => array($vendorDir . '/nunomaduro/collision/src'),
-    'Nette\\' => array($vendorDir . '/nette/utils/src', $vendorDir . '/nette/schema/src'),
+    'Nette\\' => array($vendorDir . '/nette/schema/src', $vendorDir . '/nette/utils/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Mockery\\' => array($vendorDir . '/mockery/mockery/library/Mockery'),
     'League\\MimeTypeDetection\\' => array($vendorDir . '/league/mime-type-detection/src'),
