@@ -1,21 +1,11 @@
 {
-
-  "version": 3,
-  "framework": "laravel",
-  "builds": [
-    {
-      "src": "public/index.php",
-      "use": "vercel-php@0.5.1"
-    },
-    {
-      "src": "public/**/*",
-      "use": "@vercel/static"
+  "version": 2,
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.6.0"
     }
-  ],
+  },
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "public/index.php"
-    }
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
